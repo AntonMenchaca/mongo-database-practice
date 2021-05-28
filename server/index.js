@@ -5,7 +5,6 @@ var router = require('./routes.js');
 let db = require('./database');
 let PORT = 3000;
 
-app.use(cors());
 
 // middleware to parse incoming requests that have JSON payloads
 app.use(express.json());
